@@ -5,16 +5,17 @@ const pageStyles = {
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  fontStyle: "italic",
 };
 
 // markup
-const IndexPage = () => {
+const OtherPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>Other Page</title>
       Lorem ipsum
     </main>
   );
 };
 
-export default IndexPage;
+export default OtherPage;
